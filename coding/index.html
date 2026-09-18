@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thor | Land of Asgard</title>
+    <!-- CSS terpisah -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Font (Epic) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&family=Rajdhani:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- BACKGROUND PETIR & KABUT ASGARD -->
+    <div class="asgard-bg" id="asgardBg"></div>
+
+    <!-- MAIN WRAPPER -->
+    <div class="hero-wrapper">
+        <!-- NAVBAR -->
+        <nav class="navbar">
+            <div class="logo">
+                <span class="mjolnir-icon">🔨</span> THOR
+            </div>
+            <ul class="nav-links">
+                <li><a href="#Asgard">Asgard</a></li>
+                <li><a href="#Midgard">Midgard</a></li>
+                <li><a href="#Legends">Legends</a></li>
+                <li><a href="#Mjolnir">Mjolnir</a></li>
+            </ul>
+            <div class="nav-cta">
+                <span class="lightning-badge">⚡</span>
+            </div>
+        </nav>
+
+        <!-- HERO SECTION -->
+        <section class="hero">
+            <div class="hero-content">
+                <div class="title-group">
+                    <span class="subtitle">PUTRA ODIN · DEWA PETIR</span>
+                    <h1 class="hero-title">THOR</h1>
+                    <div class="title-ornament">⚡ —— ✦ —— ⚡</div>
+                    <p class="hero-desc">
+                        Putra Odin, penguasa petir, pelindung Asgard dan Midgard. 
+                        Dengan Mjolnir di tangan, ia menjaga kesembilan alam.
+                    </p>
+                    <div class="hero-buttons">
+                        <button class="btn-primary" id="btnRaiseHammer">🔨 Angkat Mjolnir</button>
+                        <button class="btn-secondary" id="btnLightning">⚡ Panggil Petir</button>
+                    </div>
+                </div>
+                <!-- STATS / MIGHT -->
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number" id="statPower">∞</span>
+                        <span class="stat-label">Kekuatan</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" id="statStorm">⚡</span>
+                        <span class="stat-label">Badai</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" i/d="statRealm">9</span>
+                        <span class="stat-label">Alam</span>
+                    </div>
+                </div>
+            </div>
+            <!-- SIDE IMAGE / SILHOUETTE THOR (visual dengan CSS) -->
+            <div class="hero-visual">
+                <div class="thor-silhouette">
+                    <div class="hammer-glow"></div>
+                    <div class="lightning-strike" id="lightningStrike"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- QUOTE / FOOTER -->
+        <div class="quote-bar">
+            <p>“Barangsiapa yang layak, ia akan mengangkat Mjolnir.”</p>
+            <span>— Prasasti Asgard</span>
+        </div>
+    </div>
+
+    <!-- JAVASCRIPT terpisah -->
+    <script src="script.js"></script>
+</body>
+</html>
